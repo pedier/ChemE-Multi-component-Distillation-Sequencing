@@ -1,0 +1,54 @@
+# Last modified time: 2026-09-24
+# Last modified content: Depend on the shared sequencing environment
+# Last modified by: OpenAI Codex
+# File design: Unified build, dependency, test, and style configuration
+# File purpose: Define package metadata, coverage, and mini-linter behavior
+# File creator: OpenAI Codex
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distillation-reinforce"
+version = "0.1.0"
+description = "Masked REINFORCE for four-component distillation sequencing."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["torch>=2.3,<3", "distillation-sequencing-env==0.1.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3", "pytest-cov>=5.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = [
+  "--cov=distillation_reinforce",
+  "--cov-report=term-missing",
+  "--cov-fail-under=90",
+]
+
+[tool.mini_linter]
+paths = ["src", "tests"]
+exclude = [".git", ".venv", "__pycache__", ".pytest_cache", "build", "dist"]
+lang = "zh_cn.json"
+plugins = []
+fail_on = "warning"
+
+[tool.mini_linter.rules."style.file_too_long"]
+enabled = true
+max_lines = 500
+
+[tool.mini_linter.rules."style.function_too_long"]
+enabled = true
+max_lines = 50
+
+[tool.mini_linter.rules."style.test_file_naming"]
+enabled = true
+
+[tool.mini_linter.rules."architecture.layers"]
+enabled = false

@@ -1,0 +1,16 @@
+# Last modified time: 2026-09-14-15:04
+# Last modified content: Translate all metadata comments into English
+# Last modified by: OpenAI Codex
+# File design: Version-control ignore configuration
+# File purpose: Exclude virtual environments, caches, coverage data, and build artifacts
+# File creator: OpenAI Codex
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/

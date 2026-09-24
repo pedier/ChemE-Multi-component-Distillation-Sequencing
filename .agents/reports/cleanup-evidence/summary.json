@@ -1,0 +1,425 @@
+{
+  "checks": {
+    "distillation-sequencing-env": {
+      "tests": 74,
+      "coverage": 100.0,
+      "linter": {
+        "error": 0,
+        "warning": 0,
+        "info": 0,
+        "total": 0
+      }
+    },
+    "Tabular Q-Learning": {
+      "tests": 53,
+      "coverage": 98.15,
+      "linter": {
+        "error": 0,
+        "warning": 0,
+        "info": 0,
+        "total": 0
+      }
+    },
+    "DQN": {
+      "tests": 70,
+      "coverage": 98.94,
+      "linter": {
+        "error": 0,
+        "warning": 0,
+        "info": 0,
+        "total": 0
+      }
+    },
+    "REINFORCE": {
+      "tests": 57,
+      "coverage": 97.27,
+      "linter": {
+        "error": 0,
+        "warning": 0,
+        "info": 0,
+        "total": 0
+      }
+    },
+    "PPO": {
+      "tests": 81,
+      "coverage": 97.65,
+      "linter": {
+        "error": 0,
+        "warning": 0,
+        "info": 0,
+        "total": 0
+      }
+    }
+  },
+  "experiments": {
+    "Tabular Q-Learning": {
+      "default": {
+        "identical": true,
+        "evaluation": {
+          "action_sequence": [
+            2,
+            8,
+            10
+          ],
+          "final_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "normalized_column_set": [
+            2,
+            8,
+            10
+          ],
+          "selection_vector": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "total_cost_musd_per_year": 3.3083299999999998,
+          "total_reward": -3.3083299999999998
+        }
+      },
+      "short": {
+        "identical": true,
+        "evaluation": {
+          "action_sequence": [
+            2,
+            8,
+            10
+          ],
+          "final_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "normalized_column_set": [
+            2,
+            8,
+            10
+          ],
+          "selection_vector": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "total_cost_musd_per_year": 3.3083299999999998,
+          "total_reward": -3.3083299999999998
+        }
+      },
+      "timing": {
+        "before": [
+          0.06755849998444319,
+          0.06596430001081899,
+          0.0647661000257358
+        ],
+        "after": [
+          0.022536899952683598,
+          0.028891899972222745,
+          0.022735800012014806
+        ],
+        "before_median": 0.06596430001081899,
+        "after_median": 0.022735800012014806,
+        "change_percent": -65.53317475015146,
+        "passes": true
+      }
+    },
+    "DQN": {
+      "default": {
+        "identical": true,
+        "evaluation": {
+          "action_sequence": [
+            2,
+            8,
+            10
+          ],
+          "final_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "normalized_column_set": [
+            2,
+            8,
+            10
+          ],
+          "selection_vector": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "total_cost_musd_per_year": 3.3083299999999998,
+          "total_reward": -3.3083299999999998
+        }
+      },
+      "short": {
+        "identical": true,
+        "evaluation": {
+          "action_sequence": [
+            2,
+            8,
+            10
+          ],
+          "final_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "normalized_column_set": [
+            2,
+            8,
+            10
+          ],
+          "selection_vector": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "total_cost_musd_per_year": 3.3083299999999998,
+          "total_reward": -3.3083299999999998
+        }
+      },
+      "timing": {
+        "before": [
+          9.526284999970812,
+          9.149115299980622,
+          8.902304299990647
+        ],
+        "after": [
+          9.104140200011898,
+          9.24642009998206,
+          8.45782589999726
+        ],
+        "before_median": 9.149115299980622,
+        "after_median": 9.104140200011898,
+        "change_percent": -0.49157867721723036,
+        "passes": true
+      }
+    },
+    "REINFORCE": {
+      "default": {
+        "identical": true,
+        "evaluation": {
+          "action_sequence": [
+            2,
+            8,
+            10
+          ],
+          "final_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "normalized_column_set": [
+            2,
+            8,
+            10
+          ],
+          "selection_vector": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "total_cost_musd_per_year": 3.3083299999999998,
+          "total_reward": -3.3083299999999998
+        }
+      },
+      "short": {
+        "identical": true,
+        "evaluation": {
+          "action_sequence": [
+            3,
+            7,
+            10
+          ],
+          "final_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "normalized_column_set": [
+            3,
+            7,
+            10
+          ],
+          "selection_vector": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "total_cost_musd_per_year": 4.102529999999999,
+          "total_reward": -4.102529999999999
+        }
+      },
+      "timing": {
+        "before": [
+          2.584392199991271,
+          2.667269900033716,
+          2.442124099994544
+        ],
+        "after": [
+          2.6243038999964483,
+          2.482856799964793,
+          2.371670600026846
+        ],
+        "before_median": 2.584392199991271,
+        "after_median": 2.482856799964793,
+        "change_percent": -3.928792233114653,
+        "passes": true
+      }
+    },
+    "PPO": {
+      "default": {
+        "identical": true,
+        "evaluation": {
+          "action_sequence": [
+            2,
+            10,
+            8
+          ],
+          "final_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "normalized_column_set": [
+            2,
+            8,
+            10
+          ],
+          "selection_vector": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "total_cost_musd_per_year": 3.3083299999999998,
+          "total_reward": -3.3083299999999998
+        }
+      },
+      "short": {
+        "identical": true,
+        "evaluation": {
+          "action_sequence": [
+            2,
+            10,
+            8
+          ],
+          "final_state": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "normalized_column_set": [
+            2,
+            8,
+            10
+          ],
+          "selection_vector": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "total_cost_musd_per_year": 3.3083299999999998,
+          "total_reward": -3.3083299999999998
+        }
+      },
+      "timing": {
+        "before": [
+          1.592375300009735,
+          1.5659021000028588,
+          1.583719700051006
+        ],
+        "after": [
+          1.4879279000451788,
+          1.543100000009872,
+          1.496767800010275
+        ],
+        "before_median": 1.583719700051006,
+        "after_median": 1.496767800010275,
+        "change_percent": -5.490359186535998,
+        "passes": true
+      }
+    }
+  },
+  "baseline_location": "C:\\Users\\pedie\\AppData\\Local\\Temp\\sequencing-cleanup-validation\\before"
+}

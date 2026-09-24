@@ -1,0 +1,15 @@
+# Last modified time: 2026-09-24
+# Last modified content: Ignore local Python environments and test outputs
+# Last modified by: OpenAI Codex
+# File design: Repository housekeeping rules
+# File purpose: Keep generated Python files and local test artifacts out of version control
+# File creator: OpenAI Codex
+
+.venv/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
