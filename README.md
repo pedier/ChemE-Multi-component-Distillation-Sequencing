@@ -1,15 +1,14 @@
 <!--
-Last modified time: 2026-09-24
+Last modified time: 2026-09-27
 Last modified content: Consolidate problem documentation and reproducible validation
-Last modified by: OpenAI Codex
 File design: Sequencing documentation
 File purpose: Describe verified behavior, operation, and research boundaries
-File creator: OpenAI Codex
+Author: Yanzhe Fang
 -->
 
 # Distillation sequencing
 
-Four independent reinforcement-learning implementations solve the same four-component textbook problem. One standard-library package owns the chemistry. The current implementation is fixed at four components; the N-component study is a documented next phase.
+Four independent reinforcement-learning implementations solve the same four-component textbook problem. One standard-library package owns the chemistry. 
 
 ## Start here
 

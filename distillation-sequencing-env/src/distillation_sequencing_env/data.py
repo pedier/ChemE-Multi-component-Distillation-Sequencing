@@ -1,10 +1,9 @@
 """
-Last modified time: 2026-09-24
+Last modified time: 2026-09-27
 Last modified content: Consolidate verified chemistry and remove redundant work
-Last modified by: OpenAI Codex
 File design: Single source of truth for textbook data
 File purpose: Provide immutable constants and column specifications for the environment
-File creator: OpenAI Codex
+Author: Yanzhe Fang
 """
 
 from __future__ import annotations

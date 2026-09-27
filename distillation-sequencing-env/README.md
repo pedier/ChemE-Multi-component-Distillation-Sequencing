@@ -1,10 +1,9 @@
 <!--
 Last modified time: 2026-09-24
 Last modified content: Consolidate problem documentation and reproducible validation
-Last modified by: OpenAI Codex
 File design: Sequencing documentation
 File purpose: Describe verified behavior, operation, and research boundaries
-File creator: OpenAI Codex
+Author: Yanzhe Fang
 -->
 
 # Shared distillation sequencing environment
